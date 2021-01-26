@@ -12,8 +12,9 @@ __test code__: `test_success.js`, `test_error.js`
 
 First of all, install dependencies: ```npm install```
 
+run error test: ```node test_error```
+
 #### What is actually happening?
-run error test: ```node test_error```, 
 
 you can see the result is like this:
 
