@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MyBtn :some-props=somePros />
+        <MyBtn :some-props=btnPro />
     </div>
 </template>
 <script>
@@ -13,7 +13,11 @@ export default defineComponent({
   },
   async setup() {
       return {
-          somePros: {}
+          btnPro: {
+              data: {
+                  info: 'btn info'
+              }
+          }
       }
   }
 });
